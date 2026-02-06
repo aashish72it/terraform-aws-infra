@@ -33,3 +33,36 @@ module "infra" {
     Env   = "dev"
   }
 }
+
+<pre>
+
+terraform-aws-infra/
+├── .github/
+│   ├── .tf-module-config.json
+│   ├── .tf-module-manifest.json
+│   └── workflows/
+│       └── aws-tf-module.yml
+├── LICENSE
+├── README.md
+├── main.tf
+├── variables.tf
+├── outputs.tf
+├── versions.tf
+├── examples/
+│   ├── basic/
+│   │   └── main.tf
+│   └── complete/
+│       └── main.tf
+└── modules/
+    ├── s3/
+    │   ├── main.tf
+    │   ├── variables.tf
+    │   ├── outputs.tf
+    │   └── README.md
+    └── ec2/
+        ├── main.tf
+        ├── variables.tf
+        ├── outputs.tf
+        └── README.md
+
+</pre>
