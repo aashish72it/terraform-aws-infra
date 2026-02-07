@@ -16,3 +16,4 @@ jobs:
         with:
           config-file: .github/.tf-module-config.json
           manifest-file: .github/.tf-module-manifest.json
+          token: ${{ secrets.CICD_PAT }}
